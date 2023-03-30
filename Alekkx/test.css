@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    background-image: url("wallpapper.jpg");
+}
+h1,h2,h3,h4,h5,p,span{
+    margin: 0;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.containe{
+    max-width: 1920px;
+    width: 100%;
+}
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #4f075f;
+    border-bottom: 1px solid black;
+}
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo{
+    width: 90px;
+    height: 80px;
+    margin-top: 15px;
+}
+.nav-container ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+.nav-container li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+.nav-container li a{
+    text-decoration: none;
+    color: yellow;
+    transition: .5s;
+}
+.nav-container li a:hover{
+    color: rgb(158, 146, 8);
+}
+#main-banner{
+    opacity:0.9;
+    background: url("banner.jpg");
+    background-size: cover;
+    background-position: 0 40%;
+    position: relative;
+    margin-top: 100px;
+}
+#search-form{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#search-form h1{
+    font-size: 40px;
+}
+#search-form p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.card{
+    margin: 0;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background-color: #4f075f;
+    
+}
+.btn{
+padding:10px 8px;
+width: 80px;
+color: white;
+background-color: #822797;
+border: 1px solid rebeccapurple;
+border-radius: 5px;
+text-align:left;
+user-select: none;
+cursor: pointer;
+transition: 1s;
+}
+.btn:hover{
+    background-color: #4f075f;
+}
+.contexto{
+    margin: 0;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #4f075f;
+}
+#carpadio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+}
+#cardapio img{
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+#item{
+    background-color: rgb(85, 17, 121);
+    margin: 10px;
+    border-radius: 3px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 470px;
+}
+.btnn{
+    padding:10px 8px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    background-color: #e9e9e9;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    text-align:center;
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .btn:hover{
+        background-color: #4f075f;
+    }
+    #main-bannerr{
+        opacity:0.9;
+        background: url("mito.jpg");
+        background-size: cover;
+        background-position: 0 40%;
+        position: relative;
+        margin-top: 100px;
+    }
+    #itemm{
+        background-color: rgb(85, 17, 121);
+        margin: 10px;
+        border-radius: 3px;
+        padding: 11px;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        width: 460px;
+        top:709px;
+        left: 550px;
+        position: absolute;
+    }
+    .r{
+        font-size: 18px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #itemmm{
+        background-color: rgb(85, 17, 121);
+        margin: 10px;
+        border-radius: 3px;
+        padding: 11px;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        width: 420px;
+        top: -9px;
+        left: 500px;
+        position: absolute;
+    }
+    #itemmmm{
+        background-color: rgb(85, 17, 121);
+        margin: 10px;
+        border-radius: 3px;
+        padding: 11px;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        width: 450px;
+        top: 600px;
+        left:0px;
+        right:-10px ;
+        position: absolute;
+    }
+    #itemmmmm{
+        background-color: rgb(85, 17, 121);
+        margin: 10px;
+        border-radius: 3px;
+        padding: 11px;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        width: 480px;
+        top: 600px;
+        left:-550px;
+        right:-10px ;
+        position: absolute;
+    }
+    #itemmmmmm{
+        background-color: rgb(85, 17, 121);
+        margin: 10px;
+        border-radius: 3px;
+        padding: 11px;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        width: 430px;
+        top: 600px;
+        left:490px;
+        right:-100px ;
+        position: absolute;
+    }
