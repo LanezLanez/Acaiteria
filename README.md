@@ -13,16 +13,16 @@ site de açaiteria
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
+  <div class=container">
     <header>
       <nav>
         <div class="nav-container">
           <img id="logo" src="logo.png">
           <ul>
-            <li><a href="#">Contatos</a></li>
+            <li><a href="#>Contatos</a></li>
             <li><a href="menu.html">Cardápio</a></li>
-            <li><a href="#">Unidades</a></li>
-            <li><a href="#">Menu</a></li>
+            <li><a href="#>Unidades</a></li>
+            <li><a href="#>Menu</a></li>
           </ul>
         </div>
       </nav>
